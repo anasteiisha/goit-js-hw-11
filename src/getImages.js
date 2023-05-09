@@ -4,7 +4,7 @@ import { inputValue } from './index';
 import { currentPage } from './index';
 
 async function getImages() {
-  BASE_URL = 'https://pixabay.com/api/';
+  const BASE_URL = 'https://pixabay.com/api/';
   const API_KEY = '36083608-210db4eaa41b45ddd8228d7c6';
 
   const params = new URLSearchParams({
